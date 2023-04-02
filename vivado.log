@@ -1,0 +1,53 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Fri Mar 31 23:37:13 2023
+# Process ID: 79941
+# Current directory: /home/nakashim/proj-arm64/fpga/VPK180-step4000
+# Command line: vivado -stack 10000 VPK180_32st.xpr
+# Log file: /home/nakashim/proj-arm64/fpga/VPK180-step4000/vivado.log
+# Journal file: /home/nakashim/proj-arm64/fpga/VPK180-step4000/vivado.jou
+# Running On: cad111.naist.jp, OS: Linux, CPU Frequency: 1200.036 MHz, CPU Physical cores: 14, Host memory: 270149 MB
+#-----------------------------------------------------------
+start_gui
+Sourcing tcl script '/home/nakashim/.Xilinx/Vivado/Vivado_init.tcl'
+open_project VPK180_32st.xpr
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es:part0:1.0 available at /opt/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_a/1.0/board.xml as part xcve2802-vsvh1760-2lp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vek280_es_revb:part0:1.0 available at /opt/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vek280/es/rev_b/1.0/board.xml as part xcve2802-vsvh1760-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vhk158_es:part0:1.0 available at /opt/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vhk158/es/1.0/board.xml as part xcvh1582-vsva3697-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es:part0:1.2 available at /opt/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120/es/1.2/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk120_es_revb:part0:1.0 available at /opt/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/vpk120_revb/es/1.0/board.xml as part xcvp1202-vsva2785-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:vpk180_es:part0:1.0 available at /home/nakashim/.Xilinx/Vivado/2022.2.2/xhub/board_store/xilinx_board_store/XilinxBoardStore/Vivado/2022.2.2/boards/Xilinx/vpk180/es/1.0/1.0/board.xml as part xcvp1802-lsvc4072-2mp-e-s-es1 specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu208ld:part0:2.0 available at /opt/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu208ld/production/2.0/board.xml as part xczu58dr-fsvg1517-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at /opt/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at /opt/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
+WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at /opt/xilinx/Vivado/2022.2/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
+Scanning sources...
+Finished scanning sources
+WARNING: [Board 49-151] The current board 'xilinx.com::vpk180:1.0' is from a local repo. The vivado install has a corresponding board with version greater than or equal to the local repo board. Please use boards from vivado install to avoid any upgrade/migrate issues
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/nakashim/proj-arm64/fpga/VPK180-step4000_IP'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2022.2/data/ip'.
+open_project: Time (s): cpu = 00:00:26 ; elapsed = 00:00:13 . Memory (MB): peak = 9813.031 ; gain = 321.375 ; free physical = 227297 ; free virtual = 251895
+update_compile_order -fileset sources_1
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_device_image -jobs 16
+[Fri Mar 31 23:37:55 2023] Launched impl_1...
+Run output will be captured here: /home/nakashim/proj-arm64/fpga/VPK180-step4000/VPK180_32st.runs/impl_1/runme.log
+open_bd_design {/home/nakashim/proj-arm64/fpga/VPK180-step4000/VPK180_32st.srcs/sources_1/bd/design_1/design_1.bd}
+Reading block design file </home/nakashim/proj-arm64/fpga/VPK180-step4000/VPK180_32st.srcs/sources_1/bd/design_1/design_1.bd>...
+Adding component instance block -- xilinx.com:ip:versal_cips:3.3 - versal_cips_0
+Adding component instance block -- xilinx.com:ip:axi_noc:1.0 - axi_noc_0
+Adding component instance block -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding component instance block -- xilinx.com:ip:clk_wizard:1.0 - clk_wizard_0
+Adding component instance block -- comparch:user:emax6:1.0 - emax6_0
+Adding component instance block -- comparch:user:emax6:1.0 - emax6_1
+Adding component instance block -- comparch:user:emax6:1.0 - emax6_2
+Adding component instance block -- comparch:user:emax6:1.0 - emax6_3
+Successfully read diagram <design_1> from block design file </home/nakashim/proj-arm64/fpga/VPK180-step4000/VPK180_32st.srcs/sources_1/bd/design_1/design_1.bd>
+INFO: [Device 21-403] Loading part xcvp1802-lsvc4072-2MP-e-S
+WARNING: [BD 41-2664] NoC address assignment is adjusted for /axi_noc_0/M03_AXI to be a legal PL/AIE offset and range (power of 2, min 64K). Old value: 0x204c0000000 [0x100000000]. New value: 0x20400000000 [0x200000000]
+open_bd_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:33 . Memory (MB): peak = 13570.742 ; gain = 0.000 ; free physical = 224364 ; free virtual = 250047
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr  1 10:29:35 2023...

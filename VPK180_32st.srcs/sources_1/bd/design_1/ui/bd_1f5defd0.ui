@@ -1,0 +1,46 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"1.8662",
+   "Default View_TopLeft":"272,-72",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0r4  2019-12-20 bk=1.5203 VDI=41 GEI=36 GUI=JA:10.0 TLS
+#  -string -flagsOSRD
+preplace port ch0_lpddr4_trip1 -pg 1 -lvl 4 -x 1200 -y 300 -defaultsOSRD
+preplace port ch1_lpddr4_trip1 -pg 1 -lvl 4 -x 1200 -y 320 -defaultsOSRD
+preplace port lpddr4_clk1 -pg 1 -lvl 0 -x 0 -y 70 -defaultsOSRD
+preplace inst versal_cips_0 -pg 1 -lvl 1 -x 290 -y 280 -defaultsOSRD
+preplace inst axi_noc_0 -pg 1 -lvl 2 -x 800 -y 270 -defaultsOSRD
+preplace inst proc_sys_reset_0 -pg 1 -lvl 2 -x 800 -y 550 -defaultsOSRD
+preplace inst clk_wizard_0 -pg 1 -lvl 1 -x 290 -y 540 -defaultsOSRD
+preplace inst emax6_0 -pg 1 -lvl 3 -x 1100 -y 80 -defaultsOSRD
+preplace inst emax6_1 -pg 1 -lvl 3 -x 1100 -y 220 -defaultsOSRD
+preplace inst emax6_2 -pg 1 -lvl 3 -x 1100 -y 400 -defaultsOSRD
+preplace inst emax6_3 -pg 1 -lvl 3 -x 1100 -y 540 -defaultsOSRD
+preplace netloc versal_cips_0_fpd_cci_noc_axi0_clk 1 1 1 590 250n
+preplace netloc versal_cips_0_fpd_cci_noc_axi1_clk 1 1 1 580 270n
+preplace netloc versal_cips_0_fpd_cci_noc_axi2_clk 1 1 1 570 290n
+preplace netloc versal_cips_0_fpd_cci_noc_axi3_clk 1 1 1 560 310n
+preplace netloc versal_cips_0_pl0_ref_clk 1 0 2 20 450 560
+preplace netloc clk_wizard_0_clk_out2 1 1 2 600 430 1000
+preplace netloc versal_cips_0_pl0_resetn 1 1 1 580 390n
+preplace netloc proc_sys_reset_0_peripheral_aresetn 1 2 1 1010 100n
+preplace netloc clk_wizard_0_clk_out1 1 1 1 570 350n
+preplace netloc versal_cips_0_FPD_CCI_NOC_0 1 1 1 N 170
+preplace netloc versal_cips_0_FPD_CCI_NOC_1 1 1 1 N 190
+preplace netloc versal_cips_0_FPD_CCI_NOC_2 1 1 1 N 210
+preplace netloc versal_cips_0_FPD_CCI_NOC_3 1 1 1 N 230
+preplace netloc axi_noc_0_CH0_LPDDR4_0 1 2 2 NJ 300 NJ
+preplace netloc axi_noc_0_CH1_LPDDR4_0 1 2 2 NJ 320 NJ
+preplace netloc lpddr4_clk1_1 1 0 2 NJ 70 600J
+preplace netloc axi_noc_0_M00_AXI 1 2 1 980 60n
+preplace netloc axi_noc_0_M01_AXI 1 2 1 990 200n
+preplace netloc axi_noc_0_M02_AXI 1 2 1 990 260n
+preplace netloc axi_noc_0_M03_AXI 1 2 1 980 280n
+levelinfo -pg 1 0 290 800 1100 1200
+pagesize -pg 1 -db -bbox -sgen -140 0 1370 660
+"
+}
+{
+   "da_axi_noc_cnt":"1",
+   "da_cips_cnt":"1"
+}

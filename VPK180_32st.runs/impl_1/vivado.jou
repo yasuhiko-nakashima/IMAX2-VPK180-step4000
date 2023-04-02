@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2.2 (64-bit)
+# SW Build 3788238 on Tue Feb 21 19:59:23 MST 2023
+# IP Build 3783773 on Tue Feb 21 23:41:56 MST 2023
+# Start of session at: Fri Mar 31 23:37:57 2023
+# Process ID: 80412
+# Current directory: /home/nakashim/proj-arm64/fpga/VPK180-step4000/VPK180_32st.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -stack 10000 -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /home/nakashim/proj-arm64/fpga/VPK180-step4000/VPK180_32st.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/nakashim/proj-arm64/fpga/VPK180-step4000/VPK180_32st.runs/impl_1/vivado.jou
+# Running On: cad111.naist.jp, OS: Linux, CPU Frequency: 1200.036 MHz, CPU Physical cores: 14, Host memory: 270149 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace

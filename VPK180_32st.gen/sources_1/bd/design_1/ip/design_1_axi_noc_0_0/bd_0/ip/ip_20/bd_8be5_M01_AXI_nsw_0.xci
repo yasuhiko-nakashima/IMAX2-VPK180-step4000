@@ -1,0 +1,66 @@
+{
+  "schema": "xilinx.com:schema:json_instance:1.0",
+  "ip_inst": {
+    "xci_name": "bd_8be5_M01_AXI_nsw_0",
+    "cell_name": "hier_nsw/M01_AXI_nsw",
+    "component_reference": "xilinx.com:ip:noc_nsw:1.0",
+    "ip_revision": "0",
+    "gen_directory": ".",
+    "parameters": {
+      "component_parameters": {
+        "NSW_PROTOCOL": [ { "value": "MemoryMapped", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
+        "NSW_MODE": [ { "value": "SW_Slave", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
+        "NSW_NUM_PATHS": [ { "value": "1", "value_src": "user", "resolve_type": "user", "format": "long", "usage": "all" } ],
+        "NSW_PATH_TYPE": [ { "value": "RDWR", "value_src": "user", "resolve_type": "user", "usage": "all" } ],
+        "Component_Name": [ { "value": "bd_8be5_M01_AXI_nsw_0", "resolve_type": "user", "usage": "all" } ]
+      },
+      "project_parameters": {
+        "ARCHITECTURE": [ { "value": "versal" } ],
+        "BASE_BOARD_PART": [ { "value": "xilinx.com:vpk180:part0:1.0" } ],
+        "BOARD_CONNECTIONS": [ { "value": "" } ],
+        "DEVICE": [ { "value": "xcvp1802" } ],
+        "PACKAGE": [ { "value": "lsvc4072" } ],
+        "PREFHDL": [ { "value": "VERILOG" } ],
+        "SILICON_REVISION": [ { "value": "" } ],
+        "SIMULATOR_LANGUAGE": [ { "value": "MIXED" } ],
+        "SPEEDGRADE": [ { "value": "-2MP" } ],
+        "STATIC_POWER": [ { "value": "S" } ],
+        "TEMPERATURE_GRADE": [ { "value": "E" } ],
+        "USE_RDI_CUSTOMIZATION": [ { "value": "TRUE" } ],
+        "USE_RDI_GENERATION": [ { "value": "TRUE" } ]
+      },
+      "runtime_parameters": {
+        "IPCONTEXT": [ { "value": "IP_Integrator" } ],
+        "IPREVISION": [ { "value": "0" } ],
+        "MANAGED": [ { "value": "TRUE" } ],
+        "OUTPUTDIR": [ { "value": "." } ],
+        "SELECTEDSIMMODEL": [ { "value": "" } ],
+        "SHAREDDIR": [ { "value": "../../../../../ipshared" } ],
+        "SWVERSION": [ { "value": "2022.2.2" } ],
+        "SYNTHESISFLOW": [ { "value": "GLOBAL" } ]
+      }
+    },
+    "boundary": {
+      "ports": {
+        "S00_INCMM_RDRQST": [ { "direction": "in" } ],
+        "S00_INCMM_RDRSPNS": [ { "direction": "out" } ],
+        "S00_INCMM_WRRQST": [ { "direction": "in" } ],
+        "S00_INCMM_WRRSPNS": [ { "direction": "out" } ],
+        "NSU": [ { "direction": "out" } ]
+      },
+      "interfaces": {
+        "S00_INCMM": {
+          "vlnv": "xilinx.com:interface:incmm:1.0",
+          "abstraction_type": "xilinx.com:interface:incmm_rtl:1.0",
+          "mode": "slave",
+          "port_maps": {
+            "RDRQST": [ { "physical_name": "S00_INCMM_RDRQST" } ],
+            "RDRSPNS": [ { "physical_name": "S00_INCMM_RDRSPNS" } ],
+            "WRRQST": [ { "physical_name": "S00_INCMM_WRRQST" } ],
+            "WRRSPNS": [ { "physical_name": "S00_INCMM_WRRSPNS" } ]
+          }
+        }
+      }
+    }
+  }
+}
